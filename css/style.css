@@ -1,0 +1,1914 @@
+body.preloader_active {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0; }
+
+.lag_dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 13, 25, 0.2);
+  display: none; }
+
+.lag_dark_2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 13, 25, 0.5);
+  display: none; }
+
+.lag_dark_3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 13, 25, 0.7);
+  display: block; }
+
+.lag_dark_4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #020d19;
+  display: none; }
+
+.class_1, .class_right_2 {
+  display: block; }
+
+.class_2, .class_Right_1 {
+  display: none; }
+
+#preloader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  background: #fff;
+  z-index: 999999999999999999999999999999; }
+
+.bg_desktop img {
+  width: 100%;
+  height: 100vh; }
+
+.animal_preloader {
+  position: absolute;
+  width: 163px;
+  height: 207px;
+  left: 45%;
+  top: 35%;
+  background: url(http://animals.dbrqx.com/index1/img/bg/animals/bg_animal_007_hippopotamus_light.png) no-repeat scroll center center; }
+
+div#whole_area {
+  position: relative; }
+
+whole_bg_img {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+whole_bg_img img {
+  height: 100vh;
+  width: 100%;
+  -webkit-filter: brightness(0.4);
+  filter: brightness(0.4); }
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
+
+img {
+  width: 100%; }
+
+/*
+=======================================
+            animal_left
+=======================================
+*/
+.animal_left {
+  position: relative;
+  width: 100%;
+  height: 100vh; }
+
+.left_tree img, .right_tree img {
+  width: 100%;
+  height: 100vh;
+  -webkit-filter: brightness(0.4);
+  filter: brightness(0.4); }
+
+.right_tree {
+  float: right; }
+
+.lion_kid {
+  position: absolute;
+  top: 41%;
+  left: 17%;
+  right: 78%;
+  z-index: 9999; }
+  .lion_kid img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .lion_kid img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.bird_1 {
+  left: 7%;
+  position: absolute;
+  top: 25%;
+  z-index: 666;
+  right: 85%; }
+  .bird_1 img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .bird_1 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.animal_head {
+  left: 3%;
+  position: absolute;
+  top: 62%;
+  z-index: 99999;
+  right: 87%; }
+  .animal_head img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .animal_head img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.bird_2 {
+  left: 5%;
+  position: absolute;
+  top: 55%;
+  z-index: 6666;
+  right: 90%; }
+  .bird_2 img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .bird_2 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.zebra_1 {
+  left: 10%;
+  position: absolute;
+  top: 47%;
+  right: 82%; }
+  .zebra_1 img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .zebra_1 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.trees_left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-filter: brightness(0.3);
+  filter: brightness(0.3); }
+  .trees_left img {
+    width: 50%; }
+
+.panda_head {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 92%;
+  z-index: 999999999999; }
+  .panda_head img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .panda_head img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.snake_2 {
+  position: absolute;
+  bottom: 0%;
+  left: 6%;
+  z-index: 999999999999; }
+  .snake_2 img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .snake_2 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.ziraph {
+  bottom: 0;
+  left: 10%;
+  position: absolute;
+  right: 78%;
+  z-index: 999999999; }
+  .ziraph img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .ziraph img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+/*
+=======================================
+            animal_middle
+=======================================
+*/
+.title {
+  text-align: center; }
+
+.title h1 {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  color: #E6A24E;
+  font-family: 'Gloria Hallelujah', cursive; }
+
+.slideR_frame {
+  left: 34%;
+  position: absolute;
+  right: 34%;
+  top: 13%;
+  z-index: 999999; }
+  .slideR_frame img {
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4); }
+
+/*  left  */
+.left_animal_plant {
+  left: 29.3%;
+  position: absolute;
+  right: 64.7%;
+  top: 24%;
+  z-index: 99999999; }
+  .left_animal_plant img {
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4); }
+
+.right_animal_plant {
+  left: 64.8%;
+  position: absolute;
+  right: 29%;
+  top: 22%;
+  z-index: 99999999; }
+  .right_animal_plant img {
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4); }
+
+/*
+
+.left_animal_group_comic_1 {
+    position: absolute;
+    top: 6%;
+    left: -19%;
+    img{
+        width: 50%;
+       -webkit-filter: brightness(.4);
+        filter: brightness(.4);
+    }
+}
+.left_animal_group_comic_2 {
+    position: absolute;
+    top: 50%;
+    left: -21%;
+    z-index: 999999999;
+    img{
+        width: 50%;
+       -webkit-filter: brightness(.4);
+        filter: brightness(.4);
+    }
+}
+.left_animal_group_comic_3 {
+    position: absolute;
+    top: 36%;
+    left: -21%;
+    z-index: 999999999;
+    img{
+        width: 50%;
+       -webkit-filter: brightness(.4);
+        filter: brightness(.4);
+    }
+}
+.left_animal_group_comic_4 {
+    position: absolute;
+    top: 26%;
+    left: -13%;
+    z-index: 999999999;
+    img{
+        width: 50%;
+       -webkit-filter: brightness(.4);
+        filter: brightness(.4);
+    }
+}
+.right_animal_group_comic_1 {
+    position: absolute;
+    top: 48%;
+    right: -50%;
+    z-index: 999999999;
+    display: none;
+    img{
+        width: 50%;
+       -webkit-filter: brightness(.4);
+        filter: brightness(.4);
+    }
+}
+.right_animal_group_comic_2 {
+    left: 12%;
+    position: absolute;
+    top: 34%;
+    z-index: 999999999;
+    img{
+        width: 53%;
+        float: right;
+       -webkit-filter: brightness(.4);
+        filter: brightness(.4);
+    }
+}
+.right_animal_group_comic_3 {
+    left: 57%;
+    position: absolute;
+    top: 55%;
+    z-index: 999999999;
+    img{
+        width: 53%;
+        float: right;
+       -webkit-filter: brightness(.4);
+        filter: brightness(.4);
+    }
+}
+.right_animal_group_comic_4 {
+    left: 15%;
+    position: absolute;
+    top: 13%;
+    z-index: 999999999;
+    img{
+        width: 53%;
+        float: right;
+       -webkit-filter: brightness(.4);
+        filter: brightness(.4);
+    }
+}
+.right_animal_group_comic_5 {
+    position: absolute;
+    top: 41%;
+    right: -30%;
+    z-index: 9999;
+    img{
+        width: 53%;
+        float: right;
+       -webkit-filter: brightness(.4);
+        filter: brightness(.4);
+    }
+}
+*/
+.elephant_comic_info {
+  position: absolute;
+  top: 27%;
+  left: 11%;
+  width: 234px;
+  height: 126px;
+  z-index: 99999999; }
+
+.elephant_top_comic_info {
+  position: absolute;
+  top: 22%;
+  left: 25%;
+  width: 234px;
+  height: 132px;
+  z-index: 999;
+  z-index: 99999999; }
+  .elephant_top_comic_info img {
+    transform: rotate(180deg); }
+
+.lion_top_comic_info {
+  position: absolute;
+  top: 23%;
+  right: 25%;
+  width: 234px;
+  height: 132px;
+  z-index: 99999999; }
+  .lion_top_comic_info img {
+    transform: rotate(180deg); }
+
+#top_ele {
+  color: #333;
+  font-size: 18px;
+  left: 19%;
+  position: absolute;
+  top: 39%; }
+
+.ostrich_comic_info {
+  position: absolute;
+  top: 2%;
+  left: 6%;
+  width: 234px;
+  height: 126px;
+  z-index: 9; }
+
+.bird_1_comic_info {
+  position: absolute;
+  top: 37%;
+  left: 5%;
+  width: 213px;
+  height: 91px;
+  z-index: 9999; }
+
+.bird_2_comic_info {
+  position: absolute;
+  top: 6%;
+  left: 9%;
+  width: 234px;
+  height: 126px;
+  z-index: 99; }
+
+.zebra_1_comic_info {
+  position: absolute;
+  top: 28%;
+  left: 13%;
+  width: 214px;
+  height: 117px;
+  z-index: 99999999; }
+
+.panda_head_comic_info {
+  position: absolute;
+  top: 60%;
+  left: 3%;
+  width: 234px;
+  height: 126px;
+  z-index: 9999999999; }
+
+.snake_2_comic_info {
+  position: absolute;
+  top: 70%;
+  left: 6%;
+  width: 210px;
+  height: 111px;
+  z-index: 9999999999; }
+
+.animal_head_comic_info {
+  position: absolute;
+  top: 48%;
+  left: 6%;
+  width: 234px;
+  height: 126px;
+  z-index: 9999; }
+
+.ziraph_comic_info {
+  position: absolute;
+  top: 43%;
+  left: 17%;
+  width: 234px;
+  height: 126px;
+  z-index: 99999999; }
+
+.lion_kid_comic_info {
+  position: absolute;
+  top: 23%;
+  left: 18%;
+  width: 199px;
+  height: 75px;
+  z-index: 99999999; }
+
+.deer_light_comic_info {
+  position: absolute;
+  top: 57%;
+  left: 23%;
+  width: 234px;
+  height: 126px;
+  z-index: 99999999; }
+
+.aligator_light_comic_info {
+  position: absolute;
+  top: 54%;
+  left: 32%;
+  width: 216px;
+  height: 100px;
+  z-index: 99999999; }
+
+.butterfly_light_2_comic_info {
+  position: absolute;
+  top: 61%;
+  left: 37%;
+  width: 211px;
+  height: 97px;
+  z-index: 99999999; }
+
+.hippopotamus_comic_info {
+  position: absolute;
+  bottom: 31%;
+  right: 17%;
+  width: 290px;
+  height: 165px;
+  z-index: 99999999; }
+
+.buffalo_right_comic_info {
+  position: absolute;
+  top: 25%;
+  right: 8%;
+  width: 216px;
+  height: 100px;
+  z-index: 99; }
+
+.tiger_head_comic_info {
+  position: absolute;
+  bottom: 21%;
+  right: 3%;
+  width: 216px;
+  height: 100px;
+  z-index: 9999999999; }
+
+.lion_comic_info {
+  position: absolute;
+  top: 12%;
+  left: 13%;
+  width: 234px;
+  height: 126px;
+  z-index: 99999999; }
+
+.zebra_kid_comic_info {
+  position: absolute;
+  top: 21%;
+  right: 6%;
+  width: 204px;
+  height: 78px;
+  z-index: 99; }
+
+.butterfly_light_comic_info {
+  position: absolute;
+  top: 12%;
+  right: 7%;
+  width: 204px;
+  height: 78px;
+  z-index: 99; }
+
+.parrot_light_comic_info {
+  position: absolute;
+  top: 3%;
+  right: 6%;
+  width: 206px;
+  height: 73px;
+  z-index: 99; }
+
+.ziraph_kid_comic_info {
+  position: absolute;
+  top: 36%;
+  right: 11%;
+  width: 214px;
+  height: 96px;
+  z-index: 99; }
+
+.snake_1_comic_info {
+  position: absolute;
+  top: 32%;
+  right: 4%;
+  width: 215px;
+  height: 98px;
+  z-index: 99; }
+
+.monkey_comic_info {
+  position: absolute;
+  top: 47%;
+  right: 27%;
+  width: 234px;
+  height: 126px;
+  z-index: 99999999; }
+
+.lion_2_comic_info {
+  position: absolute;
+  bottom: 19%;
+  right: 28%;
+  width: 234px;
+  height: 126px;
+  z-index: 999999999; }
+
+.right_lion_comic_info {
+  position: absolute;
+  top: 23%;
+  right: 14%;
+  width: 234px;
+  height: 126px;
+  z-index: 99999999; }
+
+.right_gorilla_comic_info {
+  position: absolute;
+  top: 10%;
+  right: 12%;
+  width: 234px;
+  height: 126px;
+  z-index: 99999999; }
+
+.right_ziraph_comic_info {
+  position: absolute;
+  top: 1%;
+  right: 10%;
+  width: 234px;
+  height: 126px;
+  z-index: 9; }
+
+.comic_details {
+  color: #333;
+  font-size: 18px;
+  left: 18%;
+  position: absolute;
+  top: 17%; }
+
+.left_animal_group_1 {
+  position: absolute;
+  top: 33%;
+  left: 5.1%;
+  z-index: 99; }
+  .left_animal_group_1 img {
+    width: 70%;
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4); }
+    .left_animal_group_1 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.left_animal_group_2 {
+  left: 28%;
+  position: absolute;
+  right: 64.8%;
+  top: 31%;
+  z-index: 99; }
+  .left_animal_group_2 img {
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4); }
+    .left_animal_group_2 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.left_animal_group_3 {
+  left: 20%;
+  position: absolute;
+  right: 69.8%;
+  top: 19%;
+  z-index: 99; }
+  .left_animal_group_3 img {
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4); }
+    .left_animal_group_3 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.left_animal_group_4 {
+  left: 24%;
+  position: absolute;
+  right: 64.8%;
+  top: 46%;
+  z-index: 99; }
+  .left_animal_group_4 img {
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4); }
+    .left_animal_group_4 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+/*
+.left_animal_group_5 {
+    position: absolute;
+    top: 61%;
+    left: 1%;
+    img{
+        width: 70%;
+       -webkit-filter: brightness(.4);
+        filter: brightness(.4);
+            &:hover{
+                   -webkit-filter: brightness(1);
+                   filter: brightness(1);
+            }
+    }
+}
+*/
+/*  right  */
+.right_animal_group_1 {
+  left: 64.8%;
+  position: absolute;
+  right: 25.5%;
+  top: 15%;
+  z-index: 99; }
+  .right_animal_group_1 img {
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4); }
+    .right_animal_group_1 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.right_animal_group_2 {
+  left: 64.8%;
+  position: absolute;
+  right: 26.1%;
+  top: 43%;
+  z-index: 99; }
+  .right_animal_group_2 img {
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4); }
+    .right_animal_group_2 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.right_animal_group_3 {
+  left: 73%;
+  position: absolute;
+  right: 20%;
+  top: 44%;
+  z-index: 99; }
+  .right_animal_group_3 img {
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4); }
+    .right_animal_group_3 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.right_animal_group_5 {
+  left: 67%;
+  position: absolute;
+  right: 24%;
+  top: 31%;
+  z-index: 99; }
+  .right_animal_group_5 img {
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4); }
+    .right_animal_group_5 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.right_animal_group_6 {
+  position: absolute;
+  top: 34%;
+  right: 0%;
+  z-index: 99; }
+  .right_animal_group_6 img {
+    float: right;
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4); }
+    .right_animal_group_6 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.elephant {
+  left: 36%;
+  position: absolute;
+  right: 58%;
+  top: 8%;
+  z-index: 999999; }
+  .elephant img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .elephant img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.tiger_light_top {
+  left: 41%;
+  position: absolute;
+  right: 54%;
+  top: 7%;
+  z-index: 999999; }
+  .tiger_light_top img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .tiger_light_top img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.hippopotamus_light_top {
+  left: 45%;
+  position: absolute;
+  right: 49%;
+  top: 6%;
+  z-index: 99999; }
+  .hippopotamus_light_top img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .hippopotamus_light_top img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.lion_light_top_06 {
+  left: 49%;
+  position: absolute;
+  right: 44%;
+  top: 8%;
+  z-index: 99999; }
+  .lion_light_top_06 img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .lion_light_top_06 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.lion_light {
+  left: 57%;
+  position: absolute;
+  right: 36%;
+  top: 9%;
+  z-index: 999999; }
+  .lion_light img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .lion_light img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.snake_light_top_40 {
+  left: 55%;
+  position: absolute;
+  right: 41%;
+  top: 12%;
+  z-index: 99999; }
+  .snake_light_top_40 img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .snake_light_top_40 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.monkey_light {
+  bottom: 16%;
+  left: 68%;
+  position: absolute;
+  right: 26%;
+  z-index: 666; }
+  .monkey_light img {
+    width: 100%;
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .monkey_light img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.lion_2 {
+  position: absolute;
+  left: 63%;
+  right: 24%;
+  bottom: 0%;
+  z-index: 9999999999; }
+  .lion_2 img {
+    width: 100%;
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .lion_2 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.aligator {
+  top: 73%;
+  left: 31%;
+  position: absolute;
+  z-index: 5555;
+  right: 62%; }
+  .aligator img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .aligator img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.butterfly_light_2 {
+  position: absolute;
+  left: 39%;
+  bottom: 16%;
+  z-index: 5555; }
+  .butterfly_light_2 img {
+    width: 60%;
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .butterfly_light_2 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.fotosia {
+  position: absolute;
+  left: 40%;
+  bottom: 11%;
+  z-index: 5555; }
+
+.more_links {
+  position: absolute;
+  left: 52%;
+  bottom: 11%;
+  z-index: 5555; }
+
+span.link_btn {
+  background: rgba(49, 25, 25, 0.12);
+  color: #fff;
+  border: none;
+  width: 160px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  padding: 14px 0;
+  font-size: 16px;
+  -moz-border-radius: 100px / 40px;
+  -webkit-border-radius: 100px / 40px;
+  border-radius: 100px / 40px; }
+
+.fotosia a, .more_links a {
+  text-decoration: none; }
+
+.deer_light {
+  bottom: 0;
+  left: 20%;
+  position: absolute;
+  right: 70%;
+  z-index: 99999999999; }
+  .deer_light img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .deer_light img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+/*
+=======================================
+            animal_right
+=======================================
+*/
+.zebra_kid {
+  left: 80%;
+  position: absolute;
+  right: 16%;
+  top: 40%; }
+  .zebra_kid img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .zebra_kid img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.butterfly_light {
+  left: 80%;
+  position: absolute;
+  right: 18%;
+  top: 29%; }
+  .butterfly_light img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .butterfly_light img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.ziraph_kid {
+  bottom: 17%;
+  left: 84%;
+  position: absolute;
+  right: 7%;
+  z-index: 6666; }
+  .ziraph_kid img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .ziraph_kid img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.snake_1 {
+  bottom: 34%;
+  left: 90%;
+  position: absolute;
+  z-index: 555;
+  right: 0%; }
+  .snake_1 img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .snake_1 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.hippopotamus {
+  bottom: 12%;
+  left: 75%;
+  position: absolute;
+  right: 17%;
+  z-index: 999999999; }
+  .hippopotamus img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .hippopotamus img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.snake_light_17 {
+  bottom: 12%;
+  left: 75%;
+  position: absolute;
+  right: 17%;
+  z-index: 999999999; }
+  .snake_light_17 img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .snake_light_17 img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.parrot_light {
+  left: 86%;
+  position: absolute;
+  right: 2%;
+  top: 22%; }
+  .parrot_light img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .parrot_light img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.tiger_head {
+  bottom: 0;
+  left: 93%;
+  position: absolute;
+  right: 0;
+  z-index: 99999999999; }
+  .tiger_head img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .tiger_head img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.tree_small {
+  bottom: 0;
+  left: 95%;
+  position: absolute;
+  right: 0; }
+
+.footer_bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 999999999; }
+  .footer_bg img {
+    width: 100%;
+    height: fit-content; }
+
+/*
+============================================
+        slider
+============================================
+*/
+.carousel-inner > .current {
+  display: block; }
+
+.slider_area {
+  margin-top: 5%; }
+
+.carousel {
+  background: #E6A24E; }
+
+.item .thumb {
+  width: 25%;
+  cursor: pointer;
+  float: left; }
+
+.item .thumb img {
+  width: 100%;
+  margin: 2px; }
+
+.item img {
+  width: 100%; }
+
+.position {
+  left: 37%;
+  margin: 0;
+  position: absolute;
+  right: 36.7%;
+  top: 20%;
+  z-index: 999999; }
+
+.carousel-control.right {
+  background-image: none;
+  background-color: #E6A24E;
+  background-repeat: repeat-x;
+  left: auto;
+  left: -15%; }
+
+.carousel-control.left {
+  background-image: none;
+  background-color: #E6A24E;
+  background-repeat: repeat-x;
+  left: auto;
+  right: -15%; }
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+  display: block;
+  max-width: 100%;
+  height: -1%; }
+
+.clearfix {
+  left: 41%;
+  position: absolute;
+  right: 40%;
+  top: 67%;
+  z-index: 46; }
+
+a.left {
+  background: #E6A24E;
+  color: #fff;
+  font-size: 36px; }
+
+a.right {
+  background: #E6A24E;
+  color: #fff;
+  font-size: 36px; }
+
+/*
+============================================
+        PAGE_INFO
+============================================
+*/
+.page_info {
+  position: absolute;
+  top: 7%;
+  left: 37%;
+  height: 75%;
+  background: transparent;
+  right: 37%; }
+
+.page_info_area {
+  background: rgba(198, 239, 232, 0.47);
+  display: block;
+  text-align: center;
+  padding: 3% 1%;
+  border-radius: 5px;
+  width: 94%;
+  cursor: pointer;
+  position: absolute;
+  top: 32%;
+  left: 3%;
+  z-index: 9999999991; }
+
+.page_information {
+  background: rgba(198, 239, 232, 0.47);
+  display: block;
+  text-align: center;
+  padding: 1% 1%;
+  border-radius: 5px;
+  width: 300px;
+  cursor: pointer;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  z-index: 9999999991; }
+
+.page_information_close {
+  background: #fff;
+  color: #333;
+  padding: 5%;
+  font-size: 18px; }
+
+.page_information_2 {
+  background: rgba(230, 162, 78, 0.35);
+  display: block;
+  text-align: center;
+  padding: 1% 1%;
+  border-radius: 5px;
+  width: 350px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 14%;
+  left: 37%;
+  z-index: 9999999991; }
+
+.page_information_close_2 {
+  background: #fff;
+  color: #333;
+  padding: 5%;
+  font-size: 18px;
+  font-weight: 700; }
+
+.page_info_ziraph_kid {
+  position: absolute;
+  bottom: 15%;
+  left: 27%;
+  z-index: 9999999991; }
+  .page_info_ziraph_kid img {
+    width: 50px; }
+
+.loading_elephant {
+  position: absolute;
+  top: 22%;
+  left: 38%;
+  right: 38%;
+  z-index: 999999999; }
+
+.page_details {
+  background: #ddd;
+  color: #000;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 5% 0%;
+  display: block; }
+
+.brightness_icon {
+  position: absolute;
+  top: 22%;
+  right: 32%;
+  z-index: 999999999;
+  left: 54%; }
+
+.pause_sound {
+  position: absolute;
+  top: 22%;
+  right: 31%;
+  z-index: 999999999;
+  left: 57%; }
+
+.info_btn {
+  position: absolute;
+  top: 22%;
+  right: 31%;
+  z-index: 999999999;
+  left: 60%; }
+
+.span_btn {
+  background: #607167;
+  color: #000;
+  width: 35px;
+  height: 35px;
+  border-radius: 30px;
+  font-size: 18px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding: 5px 0;
+  margin-right: 5px;
+  cursor: pointer; }
+
+.loading_lion_bg {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 999999;
+  opacity: .7; }
+
+.loadin_elephant_icon {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.keybord_icon {
+  position: absolute;
+  top: -198px;
+  left: 97px;
+  display: block; }
+
+#icon_size {
+  font-size: 42px; }
+
+.star_icon {
+  position: absolute;
+  top: 25%;
+  right: 31%;
+  display: block;
+  z-index: 999999999;
+  left: 55%;
+  width: 24px;
+  cursor: pointer; }
+
+.cloud_icon {
+  position: absolute;
+  top: 27%;
+  right: 38%;
+  display: block;
+  z-index: 99999999999;
+  left: 58%;
+  cursor: pointer;
+  width: 24px; }
+
+.smile_icon {
+  position: absolute;
+  top: 32%;
+  right: 38%;
+  display: block;
+  z-index: 99999999999;
+  left: 59%;
+  cursor: pointer;
+  width: 24px; }
+
+.window_icon {
+  position: absolute;
+  top: 30%;
+  right: 38%;
+  display: block;
+  z-index: 99999999999;
+  left: 51%;
+  cursor: pointer;
+  width: 24px; }
+
+.circle_icon {
+  position: absolute;
+  top: 25%;
+  right: 38%;
+  display: block;
+  z-index: 99999999999;
+  left: 52%;
+  cursor: pointer;
+  width: 24px; }
+
+.icon_shape {
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  color: #fff; }
+
+/*
+==========================================
+    flag
+==========================================
+*/
+/*
+.flag_area{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.flag{
+    width: 60px;
+    height: 40px;
+    z-index: 999999999999999999999999;
+}   
+.flags{
+    position: relative;
+}    
+.flag_1 {
+    position: absolute;
+    top: 124px;
+    left: 0;
+}   
+*/
+ /*
+==========================================
+      slider_caption_area
+==========================================
+*/
+.fotosia_tolpit {
+  position: absolute;
+  left: 32%;
+  bottom: 20%;
+  background: #183650;
+  color: #fff;
+  z-index: 9999999999;
+  padding: 5px 11px; }
+  .fotosia_tolpit p {
+    margin: 0; }
+
+.morelinks_tolpit {
+  position: absolute;
+  right: 25%;
+  bottom: 20%;
+  background: #183650;
+  color: #fff;
+  z-index: 9999999999;
+  padding: 5px 11px; }
+  .morelinks_tolpit p {
+    margin: 0; }
+
+/* 
+.fotosia_link {
+    width: 153px;
+    height: 45px;
+    position: absolute;
+    bottom: 11.5%;
+    left: 40%;
+    z-index: 99999999;
+    border-radius: 30px;
+}
+.other_links {
+    width: 153px;
+    height: 45px;
+    position: absolute;
+    bottom: 11.5%;
+    right: 36.5%;
+    z-index: 99999999;
+    border-radius: 30px;
+}
+.fotosia_link_wrapper {
+    width: 78px;
+    position: relative;
+    height: 45px;
+    color: #fff;
+    display: inline-block;
+    white-space: nowrap;
+    padding: 10px 0;
+}
+.fotosia_link_inner {
+    width: 100%;
+    height: 35px;
+    overflow-x: hidden;
+    position: relative;
+    top: 0px;
+    left: 41px;
+    overflow-y: hidden;
+}
+.fotosia_link_text {
+    position: absolute;
+    display: inline-block;
+    top: 3px;
+}
+.left_arrow {
+    position: absolute;
+    left: 5px;
+    color: aqua;
+    font-size: 25px;
+    cursor: pointer;
+    top: 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 3px 8px;
+}
+.right_arrow {
+    position: absolute;
+    right: -71px;
+    color: aqua;
+    font-size: 25px;
+    cursor: pointer;
+    top: 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 3px 12px;
+}
+   
+.slider_caption_area {
+    background: #2F4A62;
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    width: 60%;
+    height: 74%;
+    z-index: 99999999;
+    padding: 1% 2%;
+    opacity: 0;
+    visibility: hidden;
+    display: inline-block;
+}   
+.slider_caption_area.active{
+    opacity: 1;
+    visibility: visible;
+}   
+.slider_caption{
+    width: 100%;
+    height: 100%;
+}    
+.phone_wrapper {
+    position: absolute;
+    top: 0px;
+    left: 10%;
+}
+.phone{
+    width: 240px;
+    position: relative;
+    height: 45px;
+    overflow: hidden;
+    color: #34CCFF;
+    display: inline-block;
+    white-space: nowrap;
+    background: #fff;
+    font-size: 18px;
+    border-radius: 0 30px 30px 0;
+}
+.phone_wrapper::before {
+    content: "\f095";
+    font-family: fontawesome;
+    position: relative;
+    top: 52px;
+    left: -15px;
+    color: #fff;
+    background: #34CCFF;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    display: block;
+    padding: 0% 0%;
+    text-align: center;
+    z-index: 999999999;
+    border: 3px solid #fff;
+}
+.phone_marque{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -30px;
+    right: 0;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+.phone_content{
+    position: absolute;
+}
+.left_arrow {
+    display: inline-block;
+    background: #fff;
+    width: 30px;
+    height: 45px;
+    z-index: 99999999;
+    position: absolute;
+    top: 0;
+    left: 44px;
+}
+.left_arrow span{
+    font-size: 33px;
+    color: #34CCFF;
+    padding: 8px;
+}
+.right_arrow span{
+    font-size: 33px;
+    color: #34CCFF;
+    padding: 8px;
+}
+.right_arrow {
+    display: inline-block;
+    background: #fff;
+    width: 30px;
+    height: 45px;
+    z-index: 99999999;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.ermail_wrapper {
+    position: absolute;
+    bottom: -221px;
+    right: -32px;
+}
+.ermail_wrapper::after {
+    content: "\f0e0";
+    font-family: fontawesome;
+    position: absolute;
+    bottom: 44px;
+    right: 54px;
+    color: #fff;
+    background: #34CCFF;
+    font-size: 35px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    display: block;
+    padding: 0% 0%;
+    text-align: center;
+    z-index: 999999999;
+    border: 3px solid #fff;
+}
+.email {
+    width: 224px;
+    height: 45px;
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+    background: #fff;
+    border-radius: 30px 0 0 30px;
+}
+.email span {
+    padding: 8px 46px;
+    display: inline-block;
+    font-size: 22px;
+    color: #34CCFF;
+}
+span.email_toolpit {
+    display: inline-block;
+    background: #000;
+    padding: 10px;
+    position: absolute;
+    top: 6%;
+    left: 16%;
+    color: #fff;
+}
+span.phone_toolpit {
+    display: block;
+    background: #000;
+    padding: 10px;
+    color: #fff;
+    margin: 21% 0% -27% -10%;
+    width: 109%;
+}
+*/
+ /*
+==========================================
+      flag_area
+==========================================
+*/
+.lag_dark_hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(3, 24, 46, 0.69);
+  z-index: 99999999999; }
+
+.flag_lang {
+  position: absolute;
+  right: 29%;
+  top: 4%; }
+  .flag_lang img {
+    width: 90px;
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3); }
+    .flag_lang img:hover {
+      -webkit-filter: brightness(1);
+      filter: brightness(1); }
+
+.square-button {
+  width: 95px;
+  height: 70px;
+  text-align: center; }
+
+#vortex {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  /*   margin: 200px 0 50px 100px;  */ }
+
+.flag_area {
+  position: absolute;
+  top: 4%;
+  right: 151px;
+  width: 597px;
+  height: 330px;
+  z-index: 999999999999999999; }
+
+.flag_position {
+  position: relative;
+  width: 597px;
+  height: 363px;
+  z-index: 999999999999999999; }
+
+a.flag_1 {
+  position: absolute;
+  top: 46%;
+  left: 0px; }
+
+a.flag_2 {
+  position: absolute;
+  top: 61%;
+  left: 12%; }
+
+a.flag_3 {
+  position: absolute;
+  top: 66%;
+  left: 29%; }
+
+a.flag_4 {
+  position: absolute;
+  top: 69%;
+  left: 50%; }
+
+a.flag_5 {
+  position: absolute;
+  top: 62%;
+  left: 70%; }
+
+a.flag_6 {
+  position: absolute;
+  top: 39%;
+  left: 83%; }
+
+a.flag_12 {
+  position: absolute;
+  top: 16%;
+  right: 10%; }
+
+a.flag_11 {
+  position: absolute;
+  top: 4%;
+  right: 25%; }
+
+a.flag_10 {
+  position: absolute;
+  top: 0%;
+  right: 41%; }
+
+a.flag_9 {
+  position: absolute;
+  top: 0%;
+  left: 28%; }
+
+a.flag_8 {
+  position: absolute;
+  top: 10%;
+  left: 14%; }
+
+a.flag_7 {
+  position: absolute;
+  top: 24%;
+  left: 1%; }
+
+.flag_area img {
+  -webkit-filter: brightness(0.3);
+  filter: brightness(0.3);
+  width: 90px; }
+  .flag_area img:hover {
+    -webkit-filter: brightness(1.2);
+    filter: brightness(1.2); }
+
+.flag_area_text {
+  position: relative; }
+
+.india {
+  font-size: 23px;
+  position: absolute;
+  top: 42%;
+  left: 19%;
+  color: #fff;
+  background: #333;
+  padding: 10px; }
+
+ /*
+==========================================
+      flag_area
+==========================================
+*/
+.animal_pic_sound {
+  position: absolute;
+  top: 18%;
+  left: 20%;
+  right: 20%;
+  height: 74%;
+  z-index: 999999; }
+
+.elephant_img {
+  position: absolute;
+  top: 28%;
+  left: 38%;
+  right: 38%;
+  opacity: .7;
+  z-index: 99999999999; }
+
+.elephant_sound {
+  position: absolute;
+  top: 30%;
+  left: 28%;
+  font-size: 22px;
+  color: #E6A24E; }
+
+.lion_sound {
+  position: absolute;
+  top: 43%;
+  left: 17%;
+  font-size: 22px;
+  color: #E6A24E; }
+
+.lion_img {
+  position: absolute;
+  top: 27%;
+  left: 38%;
+  right: 37%;
+  opacity: .7;
+  z-index: 99999999999; }
+
+ /*
+==========================================
+      flag_area
+==========================================
+*/
+.main_wrapper {
+  width: 90%;
+  margin: 0 auto; }
+
+.pop_container {
+  text-align: center; }
+
+section {
+  border: 1px solid #ccc;
+  margin: 14px 0;
+  box-shadow: 0px 5px 7px #ddd;
+  padding: 10px; }
+
+.cookies {
+  width: 80%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  z-index: 999999999; }
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 2px #ccc; }
+
+.cookies a {
+  color: #34ccff; }
+
+.cookies.fadein {
+  opacity: 1; }
+
+.cookies.fadeout {
+  transition: all 3s ease-out;
+  opacity: 0;
+  transform: translateY(-50px); }
+
+ /*
+==========================================
+      brightness
+==========================================
+*/
+.bright_bg {
+  display: inline-block;
+  position: absolute;
+  top: 29%;
+  left: 41%;
+  z-index: 99999999;
+  background: #fff;
+  width: 250px;
+  height: 50px;
+  padding: 15px 25px; }
+
+.br_slider {
+  position: relative;
+  width: 200px;
+  height: 20px;
+  display: inline-block;
+  background: url(http://animals.dbrqx.com/index1/img/grid.png) center center;
+  background-size: contain; }
+
+.progress {
+  background: #14aaf6;
+  position: absolute;
+  height: 60%;
+  top: 4px;
+  width: 50%; }
+
+.emptyprogress {
+  background: #97d9fb;
+  position: absolute;
+  height: 60%;
+  top: 4px;
+  width: 100%; }
+
+.indicator {
+  background: url(http://animals.dbrqx.com/index1/img/pointer_1.png) no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  width: 10%;
+  left: 50%;
+  margin-left: -5%; }
+
+/*
+-------------------------
+        sound btn
+-------------------------
+*/
+.animation {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out; }
+
+#btnWrapper {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 90px;
+  height: 30px;
+  background: lightgrey;
+  border-radius: 30px;
+  border: 1px solid lightgrey;
+  position: absolute;
+  top: 97px;
+  left: 43%;
+  z-index: 999999;
+  cursor: pointer; }
+
+#main_btn {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 30px;
+  position: relative;
+  left: 0; }
+
+.sound_tolpt {
+  position: absolute;
+  top: 97px;
+  left: 43%;
+  z-index: 999999; }
+
+.sound_tolpt p {
+  margin: 0;
+  background: #fff;
+  color: #333;
+  padding: 5px; }

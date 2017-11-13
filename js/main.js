@@ -1432,12 +1432,6 @@ $('#btnWrapper').hover(function(){
 //animal sound control ends
 
 
-
-
-
-
-
-
  //flag_area   
  $(window).load(function() {
 
@@ -1448,4 +1442,31 @@ $('#btnWrapper').hover(function(){
     $('#preloader').fadeOut(350);
     $('.animal_preloader').fadeOut(350);
     $('body').removeClass('preloader_active');
+
+
+
+/* randomAnimals start */
+    let randomAnimals = $('.randomAnimals');
+    console.log(randomAnimals);
+
+
+/* randomAnimals end */
 });
+
+
+
+
+/* randomAnimals start */
+
+    allAnimals = [
+        'bg_animal_005_lion_light',
+        'bg_animal_009_toucan_light',
+    ];
+
+    let randomAnimals = $('.randomAnimals');
+    randomAnimals.each(function(){
+        
+    })
+
+
+/* randomAnimals end */

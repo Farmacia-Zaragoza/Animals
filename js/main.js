@@ -1,3 +1,11 @@
+/* Global Scope Start */
+
+    var getRandom = function (min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+    };
+
+/* Global Scope End */
+
 $(document).ready(function(){
 	
 
@@ -60,9 +68,7 @@ var bg_num=[
     '03',
     '04'
 ];
-var getRandom = function (min, max) {
-	return Math.floor(Math.random() * (max - min)) + min+'px';
-};
+
 // random background
    // var randon_bg = $('.randon_bg');
     var bg_background = $('.page-id-homepage');
@@ -1442,15 +1448,6 @@ $('#btnWrapper').hover(function(){
     $('#preloader').fadeOut(350);
     $('.animal_preloader').fadeOut(350);
     $('body').removeClass('preloader_active');
-
-
-
-/* randomAnimals start */
-    let randomAnimals = $('.randomAnimals');
-    console.log(randomAnimals);
-
-
-/* randomAnimals end */
 });
 
 
@@ -1461,52 +1458,54 @@ $('#btnWrapper').hover(function(){
     allAnimals = [
         'bg_animal_001_lion_light',
         'bg_animal_002_giraffe_light',
-	'bg_animal_003_deer_light',
-	'bg_animal_004_elephant_light',
-	'bg_animal_005_lion_light',
-	'bg_animal_006_lion_light',
-	'bg_animal_007_hippopotamus_light',   
-	'bg_animal_008_rhino_light',
-	'bg_animal_009_toucan_light',
-	'bg_animal_010_lion_light',
-	'bg_animal_011_lion_light',
-	'bg_animal_012_monkey_light',
-	'bg_animal_013_elephant_light',
-	'bg_animal_014_monkey_light',
-	'bg_animal_015_ostrich_light',
-	'bg_animal_016_snake_light',
-	'bg_animal_017_snake_light',
-	'bg_animal_018_tiger_light',
-	'bg_animal_019_lion_light',
-	'bg_animal_020_giraffe_light',
-	'bg_animal_021_antelope_light',
-	'bg_animal_022_antelope_light',
-	'bg_animal_023_zebra_light',
-	'bg_animal_024_zebra_light',
-	'bg_animal_025_buffalo_light',
-	'bg_animal_026_buffalo_light',
-	'bg_animal_027_buffalo_light',
-	'bg_animal_028_buffalo_light',
-	'bg_animal_029_gorilla_light',
-	'bg_animal_030_gorilla_light',
-	'bg_animal_031_giraffe_light',
-	'bg_animal_032_toucan_light',
-	'bg_animal_033_parrot_light',
-	'bg_animal_034_panda_bear_light',
-	'bg_animal_035_giraffe_light',
-	'bg_animal_036_zebra_light',
-	'bg_animal_037_zebra_light',
-	'bg_animal_038_tiger_light',
-	'bg_animal_039_snake_light',
-	'bg_animal_040_snake_light',
-	'bg_animal_041_butterfly_light',
-	'bg_animal_042_butterfly_light',
-	'bg_animal_043_aligator_light'
-    ];
-
+        'bg_animal_003_deer_light',
+        'bg_animal_004_elephant_light',
+        'bg_animal_005_lion_light',
+        'bg_animal_006_lion_light',
+        'bg_animal_007_hippopotamus_light',   
+        'bg_animal_008_rhino_light',
+        'bg_animal_009_toucan_light',
+        'bg_animal_010_lion_light',
+        'bg_animal_011_lion_light',
+        'bg_animal_012_monkey_light',
+        'bg_animal_013_elephant_light',
+        'bg_animal_014_monkey_light',
+        'bg_animal_015_ostrich_light',
+        'bg_animal_016_snake_light',
+        'bg_animal_017_snake_light',
+        'bg_animal_018_tiger_light',
+        'bg_animal_019_lion_light',
+        'bg_animal_020_giraffe_light',
+        'bg_animal_021_antelope_light',
+        'bg_animal_022_antelope_light',
+        'bg_animal_023_zebra_light',
+        'bg_animal_024_zebra_light',
+        'bg_animal_025_buffalo_light',
+        'bg_animal_026_buffalo_light',
+        'bg_animal_027_buffalo_light',
+        'bg_animal_028_buffalo_light',
+        'bg_animal_029_gorilla_light',
+        'bg_animal_030_gorilla_light',
+        'bg_animal_031_giraffe_light',
+        'bg_animal_032_toucan_light',
+        'bg_animal_033_parrot_light',
+        'bg_animal_034_panda_bear_light',
+        'bg_animal_035_giraffe_light',
+        'bg_animal_036_zebra_light',
+        'bg_animal_037_zebra_light',
+        'bg_animal_038_tiger_light',
+        'bg_animal_039_snake_light',
+        'bg_animal_040_snake_light',
+        'bg_animal_041_butterfly_light',
+        'bg_animal_042_butterfly_light',
+        'bg_animal_043_aligator_light'
+        ];
+    let minimum = 0;
+    let maximum = allAnimals.length;
     let randomAnimals = $('.randomAnimals');
     randomAnimals.each(function(){
-        
+        // console.log(this);
+        $(this).find('img').attr('src', "http://animals.dbrqx.com/index1/img/bg/animals/" + allAnimals[getRandom(minimum,maximum)] + ".png");
     })
 
 

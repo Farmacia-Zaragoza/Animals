@@ -1,0 +1,411 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+img.main_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    z-index: -1;   
+    height: 650px;
+    -webkit-filter: brightness(0.2);
+    filter: brightness(0.2);
+}
+.brightness {
+    -webkit-filter: brightness(0.30);
+    filter: brightness(0.30);
+}
+
+.bg_brightness {
+    -webkit-filter: brightness(0.6);
+    filter: brightness(0.6);
+}
+.main_wraaper {
+ /* background-image: url(http://animals.vbrqx.com:60081/index2/desktop/bg/brqx_animals_clean_v01_2017.png);*/
+  background-size: 100% 100%;
+  width: 100%;
+  height: 650px;
+
+  display: grid;
+  grid-template-columns: 385px 1fr 385px;
+  grid-gap: 10px;
+}
+.left_sidebar {
+	/*background-image: url(http://animals.vbrqx.com:60081/index2/img/bg/plants/brqx_animals_left_tree_1920_2017.png);*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+img.left_tree {
+    width: 100%;
+    height: 100%;
+}
+img.right_tree {
+    width: 100%;
+    height: 100%;
+}
+
+.diddle_area {
+}
+
+.right_sidebar {
+/*	background-image: url(http://animals.vbrqx.com:60081/index2/img/bg/plants/brqx_animals_right_tree_1920_2017.png);*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+/*
+================================================================
+            cloud section
+================================================================
+*/
+.flag_brightness {
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+    transition: 1s;
+}
+img.cloud_flag {
+    position: absolute;
+    top: 3rem;
+    right: 35rem;
+    width: 10rem;
+}
+.cloud_language {
+    background: rgba(181, 176, 176, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 650px;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+}
+.showlayer {
+    opacity: 1;
+    visibility: visible;
+    transition: 2s;
+}
+.flag_images {
+    width: 59rem;
+    height: 40rem;
+    border-radius: 62%;
+    position: relative;
+    float: right;
+    margin-top: 3rem;
+    margin-right: 7rem;
+}
+.img_width {
+    width: 10rem;
+}
+img.cloud_1 {
+    position: absolute;
+    top: 11rem;
+    left: 2rem;
+}
+img.cloud_2 {
+    position: absolute;
+    top: 3rem;
+    left: 10rem;
+}
+img.cloud_3 {
+    position: absolute;
+    top: 0rem;
+    left: 21rem;
+}
+img.cloud_4 {
+    position: absolute;
+    top: 1rem;
+    left: 33rem;
+}
+img.cloud_5 {
+    position: absolute;
+    top: 6rem;
+    right: 6rem;
+}
+img.cloud_6 {
+    position: absolute;
+    top: 14rem;
+    right: 1rem;
+}
+img.cloud_7 {
+    position: absolute;
+    top: 22rem;
+    right: 1rem;
+}
+img.cloud_8 {
+    position: absolute;
+    top: 29rem;
+    right: 8rem;
+}
+img.cloud_9 {
+    position: absolute;
+    top: 33rem;
+    right: 18rem;
+}
+img.cloud_10 {
+    position: absolute;
+    top: 33rem;
+    right: 30rem;
+}
+img.cloud_11 {
+    position: absolute;
+    top: 28rem;
+    left: 7rem;
+}
+img.cloud_12 {
+    position: absolute;
+    top: 20rem;
+    left: 0rem;
+}
+
+/*
+================================================================
+			left animals
+================================================================
+*/
+.toucan_light {
+    position: absolute;
+    top: 112px;
+    left: 90px;
+}
+.lion_light {
+    position: absolute;
+    top: 20rem;
+    left: 24rem;
+}
+.zebra_light {
+    position: absolute;
+    left: 17rem;
+    top: 28rem;
+}
+img.rhino_light {
+    position: absolute;
+    left: 4rem;
+    top: 41rem;
+    width: 15rem;
+}
+img.toucan_light_small {
+    position: absolute;
+    left: 6rem;
+    top: 36rem;
+}
+img.panda_bear_light {
+    position: absolute;
+    left: 3rem;
+    top: 51rem;
+}
+img.giraffe_light {
+    position: absolute;
+    left: 21rem;
+    top: 41rem;
+    width: 15rem;
+}
+img.butterfly_light_left {
+    position: absolute;
+    left: 52rem;
+    top: 53rem;
+     z-index: 1;
+}
+img.animals_bush {
+    position: absolute;
+    top: 53rem;
+    left: 21rem;
+    width: 24rem;
+    height: 12rem;
+}
+img.right_plant {
+    position: absolute;
+    left: 0;
+    top: 33rem;
+    width: 82px;
+}
+
+
+/*
+================================================================
+			middle section
+================================================================
+*/
+.title_section {
+    text-align: center;
+}
+.title_section h3 {
+    margin: 0;
+    font-family: cursive;
+    color: forestgreen;
+}
+.middle_area {
+	position: relative;
+}
+.slider_section {
+    width: 100%;
+    height: 350px;
+    background-image: url(http://animals.vbrqx.com:60081/index2/img/bg/plants/brqx_animals_bg_frame02_2017.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 5rem;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+.slider_inner .flexslider .slides img {
+    width: 100%;
+    display: block;
+    height: 285px;
+}
+.slider_inner .flex-direction-nav {
+    display: none;
+}
+.slider_inner {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+.flexslider {
+	border: none;
+}
+.thumb_section {
+    width: 55%;
+    margin: 10px auto;
+}
+img.elephant_light {
+    position: absolute;
+    top: 2rem;
+    left: 6rem;
+    width: 12rem;
+}
+img.lion_light_top {
+    position: absolute;
+    top: 2rem;
+    right: 6rem;
+    width: 13rem;
+}
+img.floor_plants {
+    width: 100%;
+    height: 49px;
+    position: absolute;
+    top: 601px;
+    left: 0;
+}
+.page_icon {
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    z-index: 9;
+}
+.page_icon ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.page_icon ul li {
+	display: block;
+	float: right;
+}
+.page_icon ul li a {
+    display: block;
+    background: #fff;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 60px;
+    font-size: 24px;
+    padding: 1px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+#close_btn {
+    color: green;
+}
+.social_feed {
+    width: 100%;
+    height: 285px;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    z-index: 1;
+    background: red;   
+}
+.facebook {
+    display: none;
+}
+.linkedin {
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
+}
+.twitter {
+    overflow: auto;
+    display: none;
+}
+.close_btn {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    z-index: 1;
+}
+button.social_close {
+    color: #333;
+    letter-spacing: 7px;
+    background: rgba(181, 176, 176, 0.5);
+    display: none;
+}
+/*
+================================================================
+			right animals
+================================================================
+*/
+img.parrot_light {
+    top: 10rem;
+    right: 4rem;
+    position: absolute;
+}
+img.zebra_light_small {
+    top: 21rem;
+    right: 26rem;
+    position: absolute;
+}
+img.butterfly_light {
+    top: 16rem;
+    right: 31rem;
+    position: absolute;
+}
+img.snake_light {
+    position: absolute;
+    top: 31rem;
+    right: 0rem;
+}
+img.giraffe_light_small {
+    position: absolute;
+    top: 39rem;
+    right: 14rem;
+    width: 13rem;
+}
+img.tiger_light_head {
+    position: absolute;
+    top: 51rem;
+    right: 0rem;
+    width: 10rem;
+}
+img.hippopotamus_light {
+    position: absolute;
+    top: 48rem;
+    right: 27rem;
+    width: 10rem;
+}
+img.monkey_light {
+    position: absolute;
+    top: 46rem;
+    right: 38rem;
+}
+img.lion_light_big {
+    position: absolute;
+    top: 53rem;
+    right: 37rem;
+    width: 14rem;
+}

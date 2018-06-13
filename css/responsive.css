@@ -1,0 +1,382 @@
+/*  
+    3840 x 2160 -4K
+    1920 x 1080 -desktop
+
+*/
+
+
+
+@media only screen and (min-width: 1920px){
+.main_wraaper {
+    height: 1094px;
+    display: grid;
+    grid-template-columns: 630px 1fr 630px;
+}
+/*
+=========cloud ===========
+*/
+.cloud_language {
+    height:1094px;
+}
+img.main_bg {
+    height: 1091px;
+}
+.flag_images {
+    width: 93rem;
+    height: 59rem;
+    margin-top: 3rem;
+    margin-right: 5rem;
+}
+img.cloud_flag {
+    top: 3rem;
+    right: 54rem;
+    width: 16rem;
+}
+.img_width {
+    width: 16rem;
+}
+img.cloud_1 {
+    top: 20rem;
+    left: 0rem;
+}
+img.cloud_2 {
+    top: 7rem;
+    left: 10rem;
+}
+img.cloud_3 {
+    top: 0rem;
+    left: 28rem;
+}
+img.cloud_4 {
+    top: 1rem;
+    left: 46rem;
+}
+img.cloud_5 {
+    top: 6rem;
+    right: 15rem;
+}
+img.cloud_6 {
+    position: absolute;
+    top: 14rem;
+    right: 4rem;
+}
+img.cloud_7 {
+    top: 26rem;
+    right: 0rem;
+}
+img.cloud_8 {
+    top: 40rem;
+    right: 8rem;
+}
+img.cloud_9 {
+    top: 47rem;
+    right: 24rem;
+}
+img.cloud_10 {
+    top: 48rem;
+    right: 42rem;
+}
+img.cloud_11 {
+    top: 43rem;
+    left: 17rem;
+}
+img.cloud_12 {
+    top: 34rem;
+    left: 3rem;
+}
+
+/*
+=========left animals ===========
+*/
+.lion_light {
+    position: absolute;
+    top: 35rem;
+    left: 37rem;
+    width: 11rem;
+}
+img.floor_plants {
+    width: 100%;
+    height: 81px;
+    position: absolute;
+    top: 1010px;
+    left: 0;
+}
+.toucan_light {
+    position: absolute;
+    top: 272px;
+    left: 159px;
+    width: 19rem;
+}
+img.animals_bush {
+    position: absolute;
+    top: 92rem;
+    left: 25rem;
+    width: 33rem;
+    height: 17rem;
+}
+img.giraffe_light {
+    position: absolute;
+    left: 26rem;
+    top: 71rem;
+    width: 24rem;
+}
+img.panda_bear_light {
+    position: absolute;
+    left: 5rem;
+    top: 85rem;
+    width: 18rem;
+}
+img.rhino_light {
+    position: absolute;
+    left: 5rem;
+    top: 70rem;
+    width: 21rem;
+}
+img.toucan_light_small {
+    position: absolute;
+    left: 7rem;
+    top: 61rem;
+    width: 14rem;
+}
+.zebra_light {
+    position: absolute;
+    left: 22rem;
+    top: 47rem;
+    width: 23rem;
+}
+img.right_plant {
+    position: absolute;
+    left: 0;
+    top: 62rem;
+    width: 126px;
+}
+
+/*
+========== midle ============
+*/
+.page_icon {
+    right: 1rem;
+    top: 1rem;
+    z-index: 9;
+}
+.social_feed {
+    height: 394px;
+}
+
+
+/*
+=============right animals =========
+*/
+img.tiger_light_head {
+    position: absolute;
+    top: 86rem;
+    right: 0rem;
+    width: 16rem;
+}
+img.snake_light {
+    position: absolute;
+    top: 52rem;
+    right: 0rem;
+    width: 25rem;
+}
+img.giraffe_light_small {
+    position: absolute;
+    top: 63rem;
+    right: 20rem;
+    width: 19rem;
+}
+img.parrot_light {
+    top: 21rem;
+    right: 9rem;
+    position: absolute;
+    width: 27rem;
+}
+img.lion_light_big {
+    position: absolute;
+    top: 86rem;
+    right: 51rem;
+    width: 28rem;
+}
+img.monkey_light {
+    position: absolute;
+    top: 73rem;
+    right: 56rem;
+    width: 14rem;
+}
+img.hippopotamus_light {
+    position: absolute;
+    top: 70rem;
+    right: 40rem;
+    width: 15rem;
+}
+img.zebra_light_small {
+    top: 34rem;
+    right: 38rem;
+    position: absolute;
+    width: 12rem;
+}
+img.butterfly_light {
+    top: 28rem;
+    right: 47rem;
+    position: absolute;
+}
+img.butterfly_light_left {
+    position: absolute;
+    left: 72rem;
+    top: 80rem;
+}
+.slider_section {
+    height: 482px;
+    margin-top: 10rem;
+    padding-top: 46px;
+}
+.slider_inner .flexslider .slides img {
+    width: 100%;
+    display: block;
+    height: 394px;
+}
+img.elephant_light {
+    position: absolute;
+    top: 6rem;
+    left: 6rem;
+    width: 17rem;
+}
+img.lion_light_top {
+    position: absolute;
+    top: 5rem;
+    right: 6rem;
+    width: 17rem;
+}
+}
+
+
+
+
+@media only screen and (min-width: 1172px) and (max-width: 1365px) {
+.main_wraaper {
+    height: 649px;
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+}
+.left_sidebar,.right_sidebar {
+    background-size: 100% 100%;
+}
+img.parrot_light {
+    top: 10rem;
+    right: 1rem;
+}
+.toucan_light {
+    position: absolute;
+    top: 132px;
+    left: 55px;
+}
+.zebra_light {
+    position: absolute;
+    left: 13rem;
+    top: 28rem;
+}
+.lion_light {
+    position: absolute;
+    top: 20rem;
+    left: 20rem;
+}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1171px) {
+ .main_wraaper {
+    height: 649px;
+    display: grid;
+    grid-template-columns: 275px 1fr 275px;
+}
+.left_sidebar,.right_sidebar {
+    background-size: 100% 100%;
+}
+img.elephant_light {
+    position: absolute;
+    top: 6rem;
+    left: 6rem;
+    width: 8rem;
+}
+img.lion_light_top {
+    position: absolute;
+    top: 6rem;
+    right: 6rem;
+    width: 8rem;
+}
+img.parrot_light {
+    top: 15rem;
+    right: 1rem;
+    width: 15rem;
+}
+.toucan_light {
+    position: absolute;
+    top: 164px;
+    left: 55px;
+    width: 10rem;
+}
+.zebra_light {
+    position: absolute;
+    left: 13rem;
+    top: 28rem;
+}
+.lion_light {
+    position: absolute;
+    top: 20rem;
+    left: 16rem;
+}   
+img.giraffe_light {
+    position: absolute;
+    left: 19rem;
+    top: 44rem;
+    width: 13rem;
+}
+img.animals_bush {
+    position: absolute;
+    top: 56rem;
+    left: 17rem;
+    width: 17rem;
+    height: 9rem;
+}
+img.tiger_light_head {
+    position: absolute;
+    top: 54rem;
+    right: 0rem;
+    width: 8rem;
+}
+img.snake_light {
+    position: absolute;
+    top: 30rem;
+    right: 0rem;
+    width: 14rem;
+}
+img.giraffe_light_small {
+    position: absolute;
+    top: 39rem;
+    right: 8rem;
+    width: 13rem;
+}
+img.hippopotamus_light {
+    position: absolute;
+    top: 51rem;
+    right: 21rem;
+    width: 8rem;
+}
+img.lion_light_big {
+    position: absolute;
+    top: 56rem;
+    right: 29rem;
+    width: 11rem;
+}
+img.monkey_light {
+    position: absolute;
+    top: 50rem;
+    right: 32rem;
+    width: 6rem;
+}
+img.butterfly_light_left {
+    position: absolute;
+    left: 33rem;
+    top: 53rem;
+}
+
+}
